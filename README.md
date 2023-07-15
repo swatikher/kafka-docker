@@ -1,6 +1,6 @@
 # sk-kafka-examples
 DevTeams Documentation
-PAY https://confluence.dcsg.com/display/PTP/Local+Development
+
 
 examples with kafka
 1. CICD Pipeline example with PCF Cloud Foundry
