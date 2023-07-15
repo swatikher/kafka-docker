@@ -1,8 +1,0 @@
----
-applications:
-- name: myapp
-  random-route: true
-  path: ./
-  memory: 128M
-  buildpack: python_buildpack
-  command: python server.py
