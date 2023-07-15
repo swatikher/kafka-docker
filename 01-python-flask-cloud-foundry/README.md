@@ -14,11 +14,11 @@ Launch or deploy as CloudFoundry App
 https://apps.sys.ap03.pcf.dcsg.com 
 
 Deployed in following environment
-https://myapp-active-turtle-xh.apps.ap03.pcf.dcsg.com/ 
+https://myapp-active-turtle-xh.apps.ap03.pcf.mydomain.com/ 
 
 <p> <i> 
  RUNNING  myapp  1	133.12 MB	7 d 0 hr
-     https://myapp-active-turtle-xh.apps.ap03.pcf.dcsg.com
+     https://myapp-active-turtle-xh.apps.ap03.pcf.mydomain.com
 </i>  </p>
  
 
@@ -34,8 +34,8 @@ https://myapp-active-turtle-xh.apps.ap03.pcf.dcsg.com/
 
  <p>
   <code>
-   Pushing app myapp to org integration / space prod as swati.kher@dcsg.com...
-Applying manifest file C:\Users\DKS0698512\myGitrepo\python-tutorial\manifest.yml...
+   Pushing app myapp to org integration / space prod as swati.kher@mydomain.com...
+Applying manifest file C:\Users\myGitrepo\python-tutorial\manifest.yml...
 Manifest applied
 Packaging files to upload...
 Uploading files...
@@ -102,7 +102,7 @@ Instances starting...
 
 name:              myapp
 requested state:   started
-routes:            myapp-active-turtle-xh.apps.ap03.pcf.dcsg.com
+routes:            myapp-active-turtle-xh.apps.ap03.pcf.mydomain.com
 last uploaded:     Thu 22 Jun 06:59:08 PDT 2023
 stack:             cflinuxfs3
 buildpacks:
