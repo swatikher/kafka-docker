@@ -11,7 +11,7 @@ Python script to run Flask Dashboard
 Press CTRL+C to quit</code></p>
 
 Launch or deploy as CloudFoundry App
-https://apps.sys.ap03.pcf.dcsg.com 
+https://apps.sys.ap03.pcf.mydomain.com 
 
 Deployed in following environment
 https://myapp-active-turtle-xh.apps.ap03.pcf.mydomain.com/ 
