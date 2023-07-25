@@ -1,0 +1,12 @@
+@namespace("com.swatikher.schema")
+
+protocol TransferProtocol {
+  record Transfer {
+    string                  location;
+    string                  sku;
+    string                  serialNumber;
+    boolean                 sellableFlag;
+    string                  inventoryType;
+    union {null, string}    skuDescription = null;
+  }
+}

@@ -1,0 +1,37 @@
+@namespace("com.swatikher.schema")
+
+protocol InventoryCountProtocol {
+
+  record Inventory {
+    /** Time of count for this update */
+    timestamp_ms eventTime;
+
+    array<InventoryCount> inventoryCounts;
+  }
+
+  record InventoryCount {
+    string state;
+
+    // Key fields
+    string location;
+    string sku;
+    string inventoryStatus;
+    string inventoryType;
+    boolean sellableFlag;
+
+    /** Quantity of SKU/Status/Type/Sellable */
+    long globalQuantity;
+    /** Quantity of Location/SKU/Status/Type/Sellable */
+    long localQuantity;
+
+    // Non-key info
+    union {null, string} serialNumber = null;
+    union {null, string} eventId = null;
+    union {null, string} process = null;
+    union {null, string} movementSource = null;
+    union {null, string} locationType = null;
+    union {null, string} materialDescription = null;
+    union {null, string} createdBy = null;
+    union {null, string} lastUpdatedBy = null;
+  }
+}

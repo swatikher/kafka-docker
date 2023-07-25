@@ -1,0 +1,29 @@
+@namespace("com.swatikher.schema")
+protocol Enums {
+    enum InventoryStatus {
+        ADJUSTED_OUT, AGED, CONVERTED, DEMO_CONVERTED,
+        EXCHANGED, GOODS_ISSUE_CANCELLED, IN_TRANSIT,
+        RECEIVED, READY_FOR_PICKUP, SIM_RETURNED,
+        RETURNED, SCRAPPED, SOLD, TRANSFERRED, WARRANTY_CANCELLED
+    }
+
+    enum InventoryCondition {
+        BROKEN_PACKAGE, DAMAGED
+    }
+
+    enum InventoryType {
+        ASTOCK, DEMO, REFURB, ETC
+    }
+
+    enum ReservationStatus {
+        REQUESTED, RESERVED, CANCELED, COMPLETED, EXPIRED
+    }
+
+    enum TransactionTypeCode {
+        ADJ
+    }
+
+    enum AdjustmentType {
+        A, S, M
+    }
+}
