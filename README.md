@@ -13,3 +13,7 @@ examples with kafka
 8. OMB Benchmark
 9. actuator example springboot
 10. Postgres to Kafka Producer
+11. AVRO examples
+12. Flink Streams example
+13. KSQL - docker container
+14. Multi-Region Stretch Cluster - confluent docker example
