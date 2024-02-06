@@ -1,3 +1,4 @@
+<code>
 spring:
     kafka:
         consumer:
@@ -10,3 +11,4 @@ spring:
 topics = "swatiTest2"
 
 java -jar target/SpringBootApacheKafkaHelloWorld-0.0.1-SNAPSHOT.jar
+</code>
