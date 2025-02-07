@@ -4,7 +4,8 @@
 2. Start Cassandra
 
    https://docs.lenses.io/latest/connectors/kafka-connectors/sinks/cassandra
-   https://hub.docker.com/_/cassandra
+
+   Docker Image https://hub.docker.com/_/cassandra
 
 # To start cassandra :
 
