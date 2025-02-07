@@ -3,6 +3,9 @@
 1. Download Cassandra - https://cassandra.apache.org/_/download.html
 2. Start Cassandra
 
+   https://docs.lenses.io/latest/connectors/kafka-connectors/sinks/cassandra
+   https://hub.docker.com/_/cassandra
+
 # To start cassandra :
 
 Start with docker
