@@ -4,6 +4,25 @@
 2. Start Cassandra
 
 # To start cassandra :
+
+Start with docker
+<code>
+docker run -p 9042:9042 --rm --name cassandra -d cassandra:4.0.7
+<code>
+<p></p>
+Start cqlsh session
+
+<code>
+docker exec -it cassandra bash
+cqlsh -u cassandra -p cassandra
+</code>
+<p></p>
+or Locally
+<code>
+  apache-cassandra-4.1.7$ bin/cqlsh
+</code>
+<p></p>
+Then create keyspace
 <code>
   brew services start cassandra
 </code>
